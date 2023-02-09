@@ -41,15 +41,42 @@ Markdown 的生成器有足够智能，不会在 HTML 区块标签外加上不�
 
 例子如下，在 Markdown 文件里加上一段 HTML 表格：
 
+---
+```markdown
 这是一个普通段落。
-```html
+
 <table>
     <tr>
-        <td>Foo</td>
+        <td>表格一</td>
+        <td>表格二</td>
+    </tr>
+    <tr>
+        <td>表格三</td>
+        <td>表格四</td>
     </tr>
 </table>
-```
+
 这是另一个普通段落。
+```
+
+***效果预览：***
+
+
+这是一个普通段落。
+<table>
+    <tr>
+        <td>表格一</td>
+        <td>表格二</td>
+    </tr>
+    <tr>
+        <td>表格三</td>
+        <td>表格四</td>
+    </tr>
+</table>
+这是另一个普通段落。
+
+- - - - -
+
 请注意，在 HTML 区块标签间的 Markdown 格式语法将不会被处理。比如，你在 HTML 区块内使用 Markdown 
 样式的 *强调* 会没有效果。
 
