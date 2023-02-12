@@ -75,14 +75,14 @@ Please don't use any `<blink>` tags.
 你也可以这样写：
 
 ```markdown
-`&# 8212;` is the decimal-encoded equivalent of `& mdash;`.
+`& #8212;` is the decimal-encoded equivalent of `& mdash;`.
 ```
 
 生成下面这样的html代码:
 
 ```markdown
-<p><code>&amp;#8212;</code> is the decimal-encoded
-equivalent of <code>&amp;mdash;</code>.</p>
+<p><code>&amp; #8212;</code> is the decimal-encoded
+equivalent of <code>&amp; mdash;</code>.</p>
 ```
 
 ***效果预览：***
